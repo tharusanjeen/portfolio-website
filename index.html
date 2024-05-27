@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeen Tharu | Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="mainContainer" class="tracking-wide">
+        <header class="sticky top-0 z-50 bg-white">
+            <nav class="relative max-w-[100rem] m-auto flex items-center justify-between px-5 py-6">
+                <div id="logo">
+                    <a href="#" class="uppercase font-semibold text-2xl bg-[#8F00E8] text-white px-2 rounded-xl">s</a>
+                </div>
+                <ul id="navBar" class="absolute left-0 top-full w-full max-h-0 overflow-hidden bg-white flex flex-col md:static md:flex-row md:w-auto">
+                    <li><a href="#home" class="text-sm md:text-base block text-right p-5 uppercase hover:text-[#AB00E6] border-y-[1px] border-gray-300 md:border-none md:px-2 md:py-0">home</a></li>
+                    <li><a href="#home" class="text-sm md:text-base block text-right p-5 uppercase hover:text-[#AB00E6] border-b-[1px] border-gray-300 md:border-none md:px-2 md:py-0">about</a></li>
+                    <li><a href="#home" class="text-sm md:text-base block text-right p-5 uppercase hover:text-[#AB00E6] border-b-[1px] border-gray-300 md:border-none md:px-2 md:py-0">projects</a></li>
+                    <li><a href="#home" class="text-sm md:text-base block text-right p-5 uppercase hover:text-[#AB00E6] md:px-2 md:py-0 border-b-[1px] border-gray-300 md:border-none">contact</a></li>
+                </ul>
+                <button id="toggleNav" class="md:hidden">
+                    <i class="ri-menu-3-line font-semibold text-xl"></i>
+                </button>
+            </nav>
+        </header>
+        <div class="w-screen h-2"></div>
+        <main>
+            <section id="heroSection" class="relative h-[60vh] md:h-[93vh]">
+                <div class="relative max-w-[100rem] m-auto flex flex-col items-center gap-5 top-[40%]">
+                    <h1 class="uppercase text-center text-3xl font-black md:text-4xl lg:text-5xl">Hey, I'm Sanjeen Tharu
+                    </h1>
+                    <p class="text-center text-gray-700 px-5 w-[90%] md:w-[70%] lg:w-[60%] leading-loose">
+                        A Result-Oriented Web Developer building and managing Websites and Web Applications that leads
+                        to the success of the overall product</p>
+                    <a href="#projects"
+                        class="self-center uppercase bg-[#8F00E8] text-white font-semibold px-20 py-4 rounded-xl">projects</a>
+                    <div id="sideIcons"
+                        class="absolute left-4 hidden lg:block lg:flex lg:flex-col lg:gap-1 bg-white p-2 rounded-xl">
+                        <a href="#"><i class="ri-github-fill text-2xl hover:text-[#171414]"></i></a>
+                        <a href="#"><i class="ri-facebook-circle-fill text-2xl hover:text-[#006BE9]"></i></a>
+                        <a href="#"><i class="ri-linkedin-box-fill text-2xl hover:text-[#004CC2]"></i></a>
+                        <a href="#"><i class="ri-twitter-fill text-2xl hover:text-[#0088E8]"></i></a>
+                        <a href="#"><i class="ri-whatsapp-fill text-2xl hover:text-[#00E24D]"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="max-w-[100rem] mx-auto py-16 px-5">
+                <div class="flex flex-col items-center mb-16">
+                    <h1 class="uppercase font-bold text-3xl py-5 relative after:w-8 after:h-[5px] after:rounded-full after:bg-[#AB00E6] after:absolute after:left-[35%] after:bottom-0 tracking-widest mb-5 md:text-4xl">about me</h1>
+                    <span class="text-center text-sm text-gray-700 leading-loose md:text-base lg:px-52 xl:px-96 md:leading-loose">Here you will find more information about me, what I do, and my current skills mostly in terms
+                        of programming and technology</span>
+                </div>
+                <div class="flex flex-col gap-16 md:flex-row md:justify-center">
+                    <div class="flex flex-col gap-7 items-start md:w-[35rem]">
+                        <h2 class="font-bold text-lg md:text-xl">Get to know me!</h2>
+                        <div class="flex flex-col gap-3 text-gray-700 text-sm leading-loose md:text-base md:leading-loose">
+                            <p>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and
+                                Web Applications that leads to the success of the overall product. Check out some of my
+                                work in the Projects section.</p>
+                            <p>I also like sharing content related to the stuff that I have learned over the years in
+                                Web Development so it can help other people of the Dev Community. Feel free to Connect
+                                or Follow me on my Linkedin and Instagram where I post useful content related to Web
+                                Development and Programming</p>
+                            <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good
+                                opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                        </div>
+                        <a href="#contact" class="uppercase bg-[#8F00E8] text-white font-semibold px-10 py-4 rounded-xl">contact</a>
+                    </div>
+                    <div class="md:w-[35rem]">
+                        <h1 class="font-bold text-lg capitalize mb-5 md:text-xl md:mb-10">my skills</h1>
+                        <div class="flex gap-5 flex-wrap">
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-html5-fill text-xl text-[#F40103]"></i>HTML</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-css3-fill text-xl text-[#3E00DC]"></i>CSS</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-tailwind-css-fill text-xl text-[#00B2F3]"></i>tailwind CSS</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-javascript-fill text-xl text-s[#E9E14D]"></i>JavaScript</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-reactjs-line text-xl text-[#00D6F5]"></i>React</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="ri-nodejs-fill text-xl text-[#00AA46]"></i>Node JS</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-solid fa-staff-snake text-xl text-[#1A5D95]"></i>Python</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-brands fa-python text-xl text-[#003120]"></i>Django</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-brands fa-php text-xl text-[#766AAD]"></i>PHP</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-solid fa-scroll text-xl text-[#252E35]"></i>Bash</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-brands fa-git-alt text-xl text-[#ED0026]"></i>Github</span>
+                            <span class="flex items-center gap-1 px-3 py-2 rounded-md bg-[#E7E7E7]"><i class="fa-brands fa-optin-monster text-xl text-[#465FEE]"></i>SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="max-w-[100rem] mx-auto py-16 px-5">
+                <div class="flex flex-col items-center mb-16">
+                    <h1 class="uppercase font-bold text-3xl py-5 relative after:w-8 after:h-[5px] after:rounded-full after:bg-[#AB00E6] after:absolute after:left-[35%] after:bottom-0 tracking-widest mb-5 md:text-4xl">projects</h1>
+                    <span class="text-center text-sm text-gray-700 leading-loose md:text-base lg:px-52 xl:px-96 md:leading-loose">Here you will find some of the personal and clients projects that I created with each project containing its own case study</span>
+                </div>
+                <div class="grid place-content-center gap-5">
+                    <img src="https://notemapbetatesting.netlify.app/assets/images/no-results.png" alt="" class="w-64 md:w-80 lg:w-96">
+                    <span class="text-center">Content will be added soon!</span>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-black text-white">
+            <div class="max-w-[100rem] m-auto flex flex-col-reverse gap-16 px-4 py-16 border-b-[1px] border-gray-600 md:flex-row md:justify-center">
+                <div class="flex flex-col gap-4 md:w-[60%]">
+                    <h1 class="uppercase font-bold text-xl">sanjeen tharu</h1>
+                    <p class="text-xs">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.</p>
+                </div>
+                <div class="flex flex-col gap-1 md:w-[40%]">
+                    <h1 class="uppercase font-bold tracking-widest">social</h1>
+                    <div id="social"
+                        class="">
+                        <a href="#"><i class="ri-github-fill text-2xl"></i></a>
+                        <a href="#"><i class="ri-facebook-circle-fill text-2xl hover:text-[#006BE9]"></i></a>
+                        <a href="#"><i class="ri-linkedin-box-fill text-2xl hover:text-[#004CC2]"></i></a>
+                        <a href="#"><i class="ri-twitter-fill text-2xl hover:text-[#0088E8]"></i></a>
+                        <a href="#"><i class="ri-whatsapp-fill text-2xl hover:text-[#00E24D]"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-xs md:text-sm py-2">
+                <span>&copy; Copyright <span id="date">0000</span>, Made by <span>sanjeen tharu</span></span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
