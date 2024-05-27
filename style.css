@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    scroll-behaviour: smooth;
 }
 
 header {
